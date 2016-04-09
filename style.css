@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia;
+    font-size: x-large;
+}
+
+
+
+.sub-list{
+    color: white;
+    display: none;
+    position: absolute;
+    padding: 2px;
+    background-color: brown;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.red{
+    background-color: red;
+}
+
+.sub-list li{
+    list-style-type: none;
+}
+
+.nav-list>li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.collapsible:hover ul{
+    display: block;
+}
